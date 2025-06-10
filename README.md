@@ -12,7 +12,9 @@ The pyRadiomicBM project is built using Python.
 The pyRadiomicBM project is [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) licensed.
 
 ## Acknowledgements
-This work was financially supported by the Cyprus Cancer Research Institute through the PROTEAS project (Call: Bridges in Research Excellence CCRI_2020_FUN_001; Grant ID: CCRI_2021_FA_LE_105).
+This work was financially supported by the Cyprus Cancer Research Institute through the PROTEAS project (Call: Bridges in Research Excellence CCRI_2020_FUN_001; Grant ID: CCRI_2021_FA_LE_105). 
+
+Part of the image pre-processing has been implemented using the MAMA-MIA GitHub repository (https://github.com/LidiaGarrucho/MAMA-MIA)
 
 <p align="center">
       <img src="./docs/CCRI-logo.png" align="left" height="100">
