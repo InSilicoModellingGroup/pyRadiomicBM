@@ -17,7 +17,7 @@ Input: "mri_folder" (str): The path to the folder containing the MR images and t
 3) second level subfolders: Acquisition time specific folders containg MRI and their corresponding mask (**third level subfolders**)
 4) third level subfolders: Folders that store the MRI data (e.g. T2flair.nii.gz, T1.nii.gz, etc.) along with their corresponding mask (e.g. tumour_mask.nii.gz) 
 
-
+Example: **main folder** "mri_folder" --> **first level subfolder** "case1" --> **second level subfolder** "baseline" --> **Image files** (T2flair.nii.gz // T1c.nii.gz // tumor_mask.nii.gz)
 
 ## License
 The pyRadiomicBM project is [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) licensed.
