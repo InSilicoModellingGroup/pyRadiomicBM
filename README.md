@@ -6,7 +6,27 @@
 A comprehensive Python-based radiomic analysis pipeline on magnetic resonance imaging data of brain metastases (BM)
 
 ## How to use
-The pyRadiomicBM project is built using Python.
+The pyRadiomicBM project is built using Python. 
+
+Function "my_main_funct" calculates the radiomics features from multiple MRIs. It takes as input parameter "mri_folder" (str).
+
+Input: "mri_folder" (str): The path to the folder containing the MR images and their corresponding masks (annotations). The structure of the folder needs to be the following:
+
+mri_folder ---> Case 1
+                Case 2
+                Case 3 ---> Baseline
+                            Follow Up 1
+                            Follow Up 2 ---> T2flair.nii.gz
+                                             T1.nii.gz
+                                             .....
+                                             tumour_mask.nii.gz
+                            .......
+                ....
+
+
+
+
+
 
 ## License
 The pyRadiomicBM project is [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) licensed.
