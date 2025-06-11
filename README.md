@@ -12,19 +12,10 @@ Function "my_main_funct" calculates the radiomics features from multiple MRIs. I
 
 Input: "mri_folder" (str): The path to the folder containing the MR images and their corresponding masks (annotations). The structure of the folder needs to be the following:
 
-mri_folder ---> Case 1
-                Case 2
-                Case 3 ---> Baseline
-                            Follow Up 1
-                            Follow Up 2 ---> T2flair.nii.gz
-                                             T1.nii.gz
-                                             .....
-                                             tumour_mask.nii.gz
-                            .......
-                ....
-
-
-
+1) "mri_folder" is the main folder, containing all MR images (**first level subfolders**)
+2) first level subfolders: Case-specific folders, containing subfolders where MRI data from different acquisition times are stored (e.g. case1, case2, etc.) (**second level subfolders**)
+3) second level subfolders: Acquisition time specific folders containg MRI and their corresponding mask (**third level subfolders**)
+4) third level subfolders: Folders that store the MRI data (e.g. T2flair.nii.gz, T1.nii.gz, etc.) along with their corresponding mask (e.g. tumour_mask.nii.gz) 
 
 
 
